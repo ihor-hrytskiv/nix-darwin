@@ -18,7 +18,9 @@
     user = "ihor.hrytskiv";
 
     configuration = { pkgs, ... }: {
-      environment.systemPackages = [];
+      environment.systemPackages = with pkgs; [
+        iterm2
+      ];
 
       nix.settings.experimental-features = "nix-command flakes";
 

@@ -2,8 +2,7 @@
 
 {
   imports = [
-    ../git
-    ../zsh    
+    ../../home   
   ];
 
   home = {
